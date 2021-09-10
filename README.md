@@ -10,6 +10,6 @@ docker build -t chart .
 
 windowsユーザーは"/c/Users/...."のようなパスの必要があるかもしれません
 ```
-docker run --rm -v <出力パス>:/out chart
+docker run --rm -v <出力先のディレクトリパス>:/out chart
 ```
 
